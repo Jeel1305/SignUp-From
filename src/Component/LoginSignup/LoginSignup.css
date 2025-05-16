@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #5b5d89, #615f2c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: #ffffff;
+    padding: 40px 80px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .text {
+    color: #2c2c2c;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  .underline {
+    width: 80px;
+    height: 5px;
+    background-color: #4e54c8;
+    border-radius: 10px;
+  }
+  
+  .inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f4f6f8;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .inputs input {
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #555;
+    text-align: right;
+  }
+  
+  .forgot-password span {
+    color: #4e54c8;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    display: flex;
+    gap: 20px;                  /* Space between Sign Up and Login buttons */
+    justify-content: center;    /* Center the buttons horizontally */
+    margin-top: 30px;           /* Space from inputs above */
+  }
+  
+  .submit {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #4e54c8;  /* Main color for active button */
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submit:hover {
+    background-color: #2c2f91;  /* Slightly darker on hover */
+    transform: scale(1.03);     /* Button enlarges slightly */
+  }
+  
+  .gray {
+    background-color: #eaeaea;  /* Inactive button color */
+    color: #777777;             /* Text color for inactive */
+    cursor: not-allowed;        /* Indicates it's not clickable */
+  }
+  
+  
